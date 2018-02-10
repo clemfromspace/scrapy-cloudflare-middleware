@@ -1,0 +1,2 @@
+Scrapy>=1.0
+cfscrape>=1.9.4
