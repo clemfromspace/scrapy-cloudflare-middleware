@@ -16,7 +16,7 @@ Add the middleware to your `DOWNLOADER_MIDDLEWARES` settings
 ```python
 DOWNLOADER_MIDDLEWARES = {
     # The priority of 560 is important, because we want this middleware to kick in just before the scrapy built-in `RetryMiddleware`.
-    'scraping_hub.middlewares.CloudFlareMiddleware': 560
+    'scrapy_cloudflare_middleware.middlewares.CloudFlareMiddleware': 560
 }
 ```
 
